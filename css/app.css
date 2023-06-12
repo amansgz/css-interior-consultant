@@ -127,9 +127,6 @@ img {
 .nav-menu__link:focus:after {
   width: 100%;
 }
-main {
-  height: 100vh;
-}
 .info {
   padding: .5rem;
   padding-bottom: 1.5rem;
@@ -195,8 +192,8 @@ main {
 }
 
 .footer {
-  padding: 1.5rem;
-  margin-top: 7rem;
+  padding: 2rem 0;
+  margin-top: 10rem;
   text-align: center;
 }
 @media only screen and (min-width: 992px) {
@@ -223,7 +220,7 @@ main {
     display: flex;  
     justify-content: center;
     align-items: center;
-    margin-bottom: 7rem;
+    margin-bottom: 10rem;
   }
   .info {
     flex: 1;
