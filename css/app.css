@@ -196,6 +196,9 @@ img {
   margin-top: 10rem;
   text-align: center;
 }
+.footer a {
+  font-size: 14px;
+}
 @media only screen and (min-width: 992px) {
   body {
     margin: auto;
