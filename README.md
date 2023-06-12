@@ -6,7 +6,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://amansgz.github.io/css-interior-consultant/">
+    <a href="https://amansgz.github.io/css-interior-consultant/" target="_blank">
       Demo
     </a>
     <span> | </span>
@@ -14,7 +14,7 @@
       Solution
     </a>
     <span> | </span>
-    <a href="">
+    <a href="https://devchallenges.io/challenges/Jymh2b2FyebRTUljkNcb" target="_blank">
       Challenge
     </a>
   </h3>
