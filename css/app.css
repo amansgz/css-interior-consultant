@@ -177,10 +177,10 @@ img {
   font-weight: 500;
 }
 .card__name {
-  font-size: clamp(12px, 8vw, 14px);
+  font-size: clamp(12px, 8vw, 16px);
 }
 .card__position {
-  font-size: clamp(10px, 8vw, 12px);
+  font-size: clamp(10px, 8vw, 14px);
   color: var(--light-gray);
 }
 .card__attribution {
