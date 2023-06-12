@@ -1,0 +1,235 @@
+:root {
+  --dark: #181719;
+  --white: #ffffff;
+  --gray: #A9A9A9;
+  --light-gray: #828282;
+  --hover_nav: #f4f75f;
+  --brand: 'Crimson Pro', serif;
+  --serif: 'Lora', serif;
+  --sans-serif: 'Montserrat', sans-serif;
+}
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body { 
+  max-width: 1440px; 
+  min-height: 100vh;
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--white);
+  background-color: var(--dark);
+}
+
+h1 {
+  font-family: var(--serif);
+  font-size: clamp(36px, 5vw, 48px);
+}
+p {
+  font-family: var(--sans-serif);
+  font-style: normal;
+  font-weight: 400;
+  font-size: clamp(14px, 5vw, 24px);
+}
+ul {
+  list-style-type: none;
+}
+a {
+  font-family: var(--sans-serif);
+  font-style: normal;
+  font-size: clamp(14px, 8vw, 18px);
+  text-decoration: none;
+  color: var(--white);
+}
+img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--dark);
+  padding: 1rem .5rem;
+}
+.navbar__brand {
+  width: min(40vw, 120px);
+  padding: .4rem;
+  font-family: var(--brand);
+  font-size: 14px;
+  text-transform: uppercase;
+  text-align: center;
+  border: 1px solid var(--white);
+}
+.hamburguer {
+  z-index: 50;
+}
+.hamburguer__bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  background-color: var(--white);
+  transition: all 0.3s ease-in-out;
+}
+.active .hamburguer__bar:nth-child(2) {
+  opacity: 0;
+}
+.active .hamburguer__bar:nth-child(1) {
+  transform: translateY(8px) rotate(45deg);
+}
+.active .hamburguer__bar:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg);
+}
+
+/* Side full screen menu display from right*/
+.nav-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform: translateX(100%);
+  transition: transform .3s;
+  overflow: hidden;
+  background-color: var(--dark);
+  z-index: 30;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+.nav-menu__show {
+  transform: translateX(0);
+}
+.nav-menu__item {
+  margin-bottom: 4rem;
+}
+.nav-menu__link {
+  position: relative;
+}
+.nav-menu__link:after {
+  content: '';
+  position: absolute;
+  background-color: var(--white);
+  height: 3px;
+  width: 0;
+  left: 0;
+  bottom: -10px;
+  transition: 0.1s;
+}
+.nav-menu__link:hover:after,
+.nav-menu__link:focus:after {
+  width: 100%;
+}
+
+.main-section {
+  position: relative;
+}
+.info {
+  padding: .5rem;
+  padding-bottom: 1.5rem;
+}
+.info__title {
+  font-weight: 500;
+  text-align: left;
+}
+.info__text {
+  max-width: 405px;
+}
+.info__link {
+  display: flex;
+  font-weight: 700;
+}
+.info__icon {
+  padding-left: 1rem;
+  padding-top: .2rem;
+}
+.design {
+  padding: .5rem;
+}
+.card {
+  position: absolute; 
+  top: 92%;
+  right: 5%;
+  width: 80vw;
+  max-width: 465px;
+  padding: 1rem 1.5rem 1rem;
+  margin: 0 auto;
+  background-color: var(--dark);
+  box-shadow: -2px 0px 3px 4px rgba(0, 0, 0, 0.25);
+}
+.card__header {
+  display: flex;
+  align-items: center;
+}
+.card__avatar {
+  width: clamp(45px, 5vw, 85px);
+  border-radius: 50%;
+} 
+.card__name,
+.card__position {
+  display: block;
+  padding-left: 1rem;
+  font-weight: 500;
+}
+.card__name {
+  font-size: clamp(12px, 8vw, 14px);
+}
+.card__position {
+  font-size: clamp(10px, 8vw, 12px);
+  color: var(--light-gray);
+}
+.card__attribution {
+  width: 80vw;
+  max-width: 230px;
+  font-family: var(--serif);
+  font-weight: 700;
+  font-size: clamp(18px, 8vw, 24px);
+}
+
+@media only screen and (min-width: 992px) {
+  body {
+    margin: auto;
+    padding: 1rem 2rem;
+  }
+  .nav-menu {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    transform: translateX(0);
+    padding: 1rem 0;
+  }
+  .nav-menu__item {
+    margin: 0;
+    margin-right: 2.5rem;
+  }
+  .hamburguer__bar {
+    display: none;
+  }
+  .main-section {
+    height: 100vh;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+  }
+  .info {
+    flex: 1;
+    align-self: center;
+  }
+  .design {
+    flex: 2;
+    padding: 3rem;
+  }
+  .card {
+    top: 78%;
+  }
+}
