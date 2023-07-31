@@ -1,7 +1,7 @@
-const iconHamburguer = document.getElementById('icon-hamburguer');
+const iconHamburger = document.getElementById('icon-hamburger');
 const navMenu = document.getElementById('nav-menu');
 
-iconHamburguer.addEventListener("click", e => {
-    iconHamburguer.classList.toggle('active')
+iconHamburger.addEventListener("click", e => {
+    iconHamburger.classList.toggle('active')
     navMenu.classList.toggle('nav-menu__show')
 })
