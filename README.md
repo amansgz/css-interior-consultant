@@ -1,10 +1,20 @@
-<h1 align="center">Interior Consultant</h1>
+# Interior Consultant
 
-<div align="center">
-  This application/site was created as a submission to <a href="https://devchallenges.io/paths/responsive-web-developer">Devchallenges</a> 
-</div>
+## The challenge
+Create a homepage following the design.
 
-<div align="center">
+## User story
+
+- I can see a page following the given design
+- On mobile, I can see a collapsed navigation
+- On mobile, when I select the hamburger menu, I can see a navigation
+
+
+## Built With
+
+- CSS
+
+<div>
   <h3>
     <a href="https://amansgz.github.io/css-interior-consultant/" target="_blank">
       Demo
@@ -22,19 +32,5 @@
 
 ![screenshot](./assets/preview.png)
 
-## The challenge
 
-- User story: I can see a page following the given design
-- User story: On mobile, I can see a collapsed navigation
-- User story: On mobile, when I select the hamburger menu, I can see a navigation
-
-
-## Built With
-
-- CSS
-
-
-## Author
-
-- GitHub [@amansgz](https://github.com/amansgz)
-- DevChallenges [@amansgz](https://devchallenges.io/portfolio/amansgz)
+This application/site was created as a submission to <a href="https://devchallenges.io/paths/responsive-web-developer">Devchallenges</a> 
