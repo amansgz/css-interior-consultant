@@ -31,24 +31,24 @@
           <span class= "hamburger__bar"></span>
         </div>
 
-        <ul class= "nav-menu" id= "nav-menu">
-          <li class= "nav-menu__item">
-            <a href= "#" class= "nav-menu__link">
+        <ul class= "nav__menu" id= "nav-menu">
+          <li class= "nav__menu__item">
+            <a href= "#" class= "nav__menu__link">
               Home
             </a>
           </li>
-          <li class= "nav-menu__item">
-            <a href= "#" class= "nav-menu__link">
+          <li class= "nav__menu__item">
+            <a href= "#" class= "nav__menu__link">
               Collection
             </a>
           </li>
-          <li class= "nav-menu__item">
-            <a href= "#" class= "nav-menu__link">
+          <li class= "nav__menu__item">
+            <a href= "#" class= "nav__menu__link">
               About
             </a>
           </li>
-          <li class= "nav-menu__item">
-            <a href= "#" class= "nav-menu__link">
+          <li class= "nav__menu__item">
+            <a href= "#" class= "nav__menu__link">
               Contact
             </a>
           </li>
@@ -58,49 +58,46 @@
   
     <main>
       <section class= "section-design">
-        <div class= "grid-design">
-          <div class= "info">
-            <h1 class= "info__title">
+        <div class= "grid">
+          <div class= "grid__item_content">
+            <h1 class= "content__title">
               Modern interior
             </h1>
-            <p class= "info__text">
+            <p class= "content__text">
               A full-service residential & commercial interior design and staging company offering professional organizing & eco-services.
             </p>
-            <a class= "info__link" href="#">
+            <a class= "content__link" href="#">
               Read more
-              <figure>
-                <i class= "fa-solid fa-right-long info__icon"></i>
+              <figure class= "content__icon">
+                <i class= "fa-solid fa-right-long"></i>
               </figure>
             </a>
           </div>
 
-          <div class= "design">
-            <div class= "design__img">  
-              <figure>
+          <div>
+              <picture class= "designer__work">
                 <img src= "./assets/photo1.png" alt= "interior design by Aliza Webber">
-              </figure>
-            </div>  
-            <div class= "card">
-              <div class= "card__header">
-                <div class= "card__avatar">
-                  <figure>
-                    <img 
-                      src= "./assets/photo2.png"
-                      alt= "Aliza Webber" 
-                    >
-                  </figure>
-                </div> 
+              </picture>
+            
+            <div class= "designer__card">
+              <div class= "designer__card__header">
+                <figure class= "designer__photo">
+                  <img 
+                    src= "./assets/photo2.png"
+                    alt= "Aliza Webber" >
+                </figure>
+                
                 <div> 
-                  <span class= "card__name">
+                  <span class= "designer__name">
                     Aliza Webber   
                   </span>
-                  <span class= "card__position">
+                  <span class= "designer__position">
                       Interior designer
                   </span>
                 </div>  
               </div>
 
-              <p class= "card__attribution">
+              <p class= "designer__attribution">
                 Designed in 2020 by Aliza Webber
               </p>
             </div>
@@ -110,7 +107,9 @@
     </main>
 
     <footer class= "footer">
-      <a href= "https://github.com/amansgz" target= "_blank">
+      <a class= "footer__attribution" 
+        href= "https://github.com/amansgz" 
+        target= "_blank">
         Created by @amansgz - devChallenges.io    
       </a>
     </footer>
