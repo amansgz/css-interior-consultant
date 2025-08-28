@@ -1,118 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=5"
+    />
+    <title>Devchallenges | Interior Consultant</title>
+    <link rel="icon" href="./assets/devchallenges.png" />
+    <!-- FONTS Crimson Pro 200 / Lora 500, 700/ Montserrat 400, 500, 700-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200&family=Lora:wght@500;700&family=Montserrat:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/app.css" />
+    <script src="./js/app.js" defer></script>
+  </head>
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
-  <link rel="icon" href="./assets/devchallenges.png">
-  <link rel="shortcut icon" type="image/x-icon" href="https://devchallenges.io/">
-  <!-- ICONS -->
-  <script src="https://kit.fontawesome.com/1fbae0c810.js" crossorigin="anonymous"></script>
-  <!-- FONTS Crimson Pro 200 / Lora 500, 700/ Montserral 400, 500, 700-->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200&family=Lora:wght@500;700&family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
-  <!-- STYLES -->
-  <link rel="stylesheet" href="./css/app.css">
-  <script src="./js/app.js" defer></script>
-  <title>Devchallenges | Interior Consultant</title>
-</head>
+  <body>
+    <header class="header">
+      <nav>
+        <a href="#">This interior</a>
 
-<body>
-    <header class= "header">
-      <nav class= "navbar"> 
-        <a href= "#" class= "navbar__brand">
-          This interior
-        </a>
-      
-        <div class= "hamburger" id= "icon-hamburger">
-          <span class= "hamburger__bar"></span>
-          <span class= "hamburger__bar"></span>
-          <span class= "hamburger__bar"></span>
+        <div class="hamburger" id="icon-hamburger">
+          <span class="hamburger__bar"></span>
+          <span class="hamburger__bar"></span>
+          <span class="hamburger__bar"></span>
         </div>
 
-        <ul class= "nav__menu" id= "nav-menu">
-          <li class= "nav__menu__item">
-            <a href= "#" class= "nav__menu__link">
-              Home
-            </a>
+        <ul class="nav__menu" id="nav-menu">
+          <li>
+            <a href="#">Home</a>
           </li>
-          <li class= "nav__menu__item">
-            <a href= "#" class= "nav__menu__link">
-              Collection
-            </a>
+          <li>
+            <a href="#">Collection</a>
           </li>
-          <li class= "nav__menu__item">
-            <a href= "#" class= "nav__menu__link">
-              About
-            </a>
+          <li>
+            <a href="#">About</a>
           </li>
-          <li class= "nav__menu__item">
-            <a href= "#" class= "nav__menu__link">
-              Contact
-            </a>
+          <li>
+            <a href="#">Contact</a>
           </li>
         </ul>
       </nav>
     </header>
-  
+
     <main>
-      <section class= "section-design">
-        <div class= "grid">
-          <div class= "grid__item_content">
-            <h1 class= "content__title">
-              Modern interior
-            </h1>
-            <p class= "content__text">
-              A full-service residential & commercial interior design and staging company offering professional organizing & eco-services.
-            </p>
-            <a class= "content__link" href="#">
-              Read more
-              <figure class= "content__icon">
-                <i class= "fa-solid fa-right-long"></i>
-              </figure>
-            </a>
-          </div>
+      <section>
+        <h1>Modern interior</h1>
+        <p>
+          A full-service residential & commercial interior design and staging
+          company offering professional organizing & eco-services.
+        </p>
+        <a href="#"> Read more </a>
+        <div>
+          <img
+            src="./assets/photo1.png"
+            alt="interior design by Aliza Webber"
+          />
+        </div>
 
+        <article>
           <div>
-              <picture class= "designer__work">
-                <img src= "./assets/photo1.png" alt= "interior design by Aliza Webber">
-              </picture>
-            
-            <div class= "designer__card">
-              <div class= "designer__card__header">
-                <figure class= "designer__photo">
-                  <img 
-                    src= "./assets/photo2.png"
-                    alt= "Aliza Webber" >
-                </figure>
-                
-                <div> 
-                  <span class= "designer__name">
-                    Aliza Webber   
-                  </span>
-                  <span class= "designer__position">
-                      Interior designer
-                  </span>
-                </div>  
-              </div>
-
-              <p class= "designer__attribution">
-                Designed in 2020 by Aliza Webber
-              </p>
-            </div>
+            <img src="./assets/photo2.png" alt="Aliza Webber" />
           </div>
-        </div>  
+          <div>
+            <span>Aliza Webber</span>
+            <span>Interior designer</span>
+          </div>
+          <p>Designed in 2020 by Aliza Webber</p>
+        </article>
       </section>
     </main>
 
-    <footer class= "footer">
-      <a class= "footer__attribution" 
-        href= "https://github.com/amansgz" 
-        target= "_blank">
-        Created by @amansgz - devChallenges.io    
-      </a>
+    <footer class="footer">
+      <small>
+        Created by
+        <a href="https://github.com/amansgz" target="_blank"> @amansgz </a>
+      </small>
     </footer>
-</body>
-
+  </body>
 </html>
