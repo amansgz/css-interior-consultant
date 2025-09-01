@@ -20,13 +20,15 @@ This is my solution to the "Interior Consultant" challenge on Legacy Devchalleng
 
 ## Links
 
+
 - **Live Site:** [Interior Consultant](https://amansgz.github.io/css-interior-consultant/)
 
 ---
 
 ## Credits and Acknowledgements
 
-This project was built as a solution to a design challenge, with the help of an AI assistant.
+This project was built as a solution to a design challenge.
 
 - **Design:** Legacy Devchallenges
 - **Coded by:** @amansgz
+
