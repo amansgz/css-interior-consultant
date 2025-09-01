@@ -1,36 +1,32 @@
 # Interior Consultant
 
-## The challenge
-Create a homepage following the design.
+This is my solution to the "Interior Consultant" challenge on Legacy Devchallenges.
 
-## User story
+---
 
-- I can see a page following the given design
-- On mobile, I can see a collapsed navigation
-- On mobile, when I select the hamburger menu, I can see a navigation
+## Features
 
+- **Responsive Design:** The page looks great on all devices, from desktop to mobile.
+- **Accesibility:** The page is built with semantic HTML and CSS to be easily navigated with keyboardd users.
 
-## Built With
+---
 
-- CSS
+## Technologies Used
 
-<div>
-  <h3>
-    <a href="https://amansgz.github.io/css-interior-consultant/" target="_blank">
-      Demo
-    </a>
-    <span> | </span>
-    <a href="https://devchallenges.io/solutions/MsblcvVOrUKRc6K1JWBi">
-      Solution
-    </a>
-    <span> | </span>
-    <a href="https://devchallenges.io/challenges/Jymh2b2FyebRTUljkNcb" target="_blank">
-      Challenge
-    </a>
-  </h3>
-</div>
+- **HTML5:** For the page structure.
+- **CSS3:** For styling, including responsive layouts and typography.
 
-![screenshot](./assets/preview.png)
+---
 
+## Links
 
-This application/site was created as a submission to <a href="https://devchallenges.io/paths/responsive-web-developer">Devchallenges</a> 
+- **Live Site:** [Interior Consultant](https://amansgz.github.io/css-interior-consultant/)
+
+---
+
+## Credits and Acknowledgements
+
+This project was built as a solution to a design challenge, with the help of an AI assistant.
+
+- **Design:** Legacy Devchallenges
+- **Coded by:** @amansgz
