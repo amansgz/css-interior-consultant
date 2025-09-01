@@ -144,7 +144,7 @@ img {
 }
 .hero-section h1 {
   font-family: var(--ff-heading);
-  font-size: clamp(2rem, 5vw, 3.5rem);
+  font-size: clamp(2rem, 5vw, 3rem);
 }
 .hero-section p {
   max-width: 30ch;
@@ -209,7 +209,7 @@ img {
   color: var(--clr-light-gray);
 }
 .card-designer p {
-  max-width: 20ch;
+  max-width: 17ch;
 }
 .footer {
   padding: 1rem 0;
