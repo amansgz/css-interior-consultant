@@ -1,118 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=5"
+    />
+    <title>Devchallenges | Interior Consultant</title>
+    <link rel="icon" href="./assets/devchallenges.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200&family=Lora:wght@500;700&family=Montserrat:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/app.css" />
+    <script src="./js/app.js" defer></script>
+  </head>
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
-  <link rel="icon" href="./assets/devchallenges.png">
-  <link rel="shortcut icon" type="image/x-icon" href="https://devchallenges.io/">
-  <!-- ICONS -->
-  <script src="https://kit.fontawesome.com/1fbae0c810.js" crossorigin="anonymous"></script>
-  <!-- FONTS Crimson Pro 200 / Lora 500, 700/ Montserral 400, 500, 700-->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200&family=Lora:wght@500;700&family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
-  <!-- STYLES -->
-  <link rel="stylesheet" href="./css/app.css">
-  <script src="./js/app.js" defer></script>
-  <title>Devchallenges | Interior Consultant</title>
-</head>
+  <body>
+    <div class="page-container">
+      <header class="header">
+        <a href="#" class="logo">This interior</a>
+        <nav>
+          <ul class="nav-menu" id="navMenu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Collection</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+        <button class="btn-hamburger" id="btnHamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+      </header>
 
-<body>
-    <header class= "header">
-      <nav class= "navbar"> 
-        <a href= "#" class= "navbar__brand">
-          This interior
-        </a>
-      
-        <div class= "hamburger" id= "icon-hamburger">
-          <span class= "hamburger__bar"></span>
-          <span class= "hamburger__bar"></span>
-          <span class= "hamburger__bar"></span>
-        </div>
-
-        <ul class= "nav__menu" id= "nav-menu">
-          <li class= "nav__menu__item">
-            <a href= "#" class= "nav__menu__link">
-              Home
-            </a>
-          </li>
-          <li class= "nav__menu__item">
-            <a href= "#" class= "nav__menu__link">
-              Collection
-            </a>
-          </li>
-          <li class= "nav__menu__item">
-            <a href= "#" class= "nav__menu__link">
-              About
-            </a>
-          </li>
-          <li class= "nav__menu__item">
-            <a href= "#" class= "nav__menu__link">
-              Contact
-            </a>
-          </li>
-        </ul>
-      </nav>
-    </header>
-  
-    <main>
-      <section class= "section-design">
-        <div class= "grid">
-          <div class= "grid__item_content">
-            <h1 class= "content__title">
-              Modern interior
-            </h1>
-            <p class= "content__text">
-              A full-service residential & commercial interior design and staging company offering professional organizing & eco-services.
-            </p>
-            <a class= "content__link" href="#">
-              Read more
-              <figure class= "content__icon">
-                <i class= "fa-solid fa-right-long"></i>
-              </figure>
-            </a>
-          </div>
-
-          <div>
-              <picture class= "designer__work">
-                <img src= "./assets/photo1.png" alt= "interior design by Aliza Webber">
-              </picture>
-            
-            <div class= "designer__card">
-              <div class= "designer__card__header">
-                <figure class= "designer__photo">
-                  <img 
-                    src= "./assets/photo2.png"
-                    alt= "Aliza Webber" >
-                </figure>
-                
-                <div> 
-                  <span class= "designer__name">
-                    Aliza Webber   
-                  </span>
-                  <span class= "designer__position">
-                      Interior designer
-                  </span>
-                </div>  
-              </div>
-
-              <p class= "designer__attribution">
-                Designed in 2020 by Aliza Webber
+      <main>
+        <section class="hero-section">
+          <div class="content-image-wrapper">
+            <div class="content">
+              <h1>Modern interior</h1>
+              <p>
+                A full-service residential & commercial interior design and
+                staging company offering professional organizing & eco-services.
               </p>
+              <div class="read-more-container">
+                <a href="#">Read more</a>
+                <svg
+                  class="arrow-icon"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 640 640"
+                  role="img"
+                  aria-hidden="true"
+                >
+                  <path
+                    d="M566.6 342.6C579.1 330.1 579.1 309.8 566.6 297.3L406.6 137.3C394.1 124.8 373.8 124.8 361.3 137.3C348.8 149.8 348.8 170.1 361.3 182.6L466.7 288L96 288C78.3 288 64 302.3 64 320C64 337.7 78.3 352 96 352L466.7 352L361.3 457.4C348.8 469.9 348.8 490.2 361.3 502.7C373.8 515.2 394.1 515.2 406.6 502.7L566.6 342.7z"
+                  />
+                </svg>
+              </div>
             </div>
+          <div class="image-card-wrapper">
+            <img
+              class="hero-image"
+              src="./assets/photo1.png"
+              alt="interior design by Aliza Webber"
+            />
+            <article class="card-designer">
+              <img class="avatar" src="./assets/photo2.png" alt="Aliza Webber" />
+              <div>
+                <span>Aliza Webber</span>
+                <span class="title">Interior designer</span>
+              </div>
+              <p>Designed in 2020 by Aliza Webber</p>
+            </article>
           </div>
-        </div>  
-      </section>
-    </main>
+        </section>
+      </main>
 
-    <footer class= "footer">
-      <a class= "footer__attribution" 
-        href= "https://github.com/amansgz" 
-        target= "_blank">
-        Created by @amansgz - devChallenges.io    
-      </a>
-    </footer>
-</body>
-
+      <footer class="footer">
+        <small>
+          Created by
+          <a href="https://github.com/amansgz" target="_blank"> @amansgz </a>
+        </small>
+      </footer>
+    </div>
+  </body>
 </html>
